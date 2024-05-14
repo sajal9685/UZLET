@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  background-color: #dfbbd7;
+}
+
+.container {
+  width: 100%;
+  height: 610px;
+}
+/* NAV-BAR */
+.nav-bar {
+  height: 90px;
+  width: 100%;
+  color: black;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.btn {
+  border: 2px solid transparent;
+  transition: border 0.5s;
+  height: 30px;
+}
+
+.btn:hover {
+  border: white;
+}
+
+#logo {
+  height: 30vh;
+  /* background-color: rgb(252, 188, 252); */
+  background-color: #dfbbd7;
+}
+
+.search {
+  width: 380px;
+  height: 30px;
+  display: flex;
+  text-align: center;
+  background-color: rgb(250, 232, 250);
+  border: transparent;
+  border-radius: 10px;
+}
+
+#search-icon {
+  padding: 10px 10px 12px 10px;
+  height: 30px;
+  color: #32886f;
+}
+/* SECOND-ROW */
+.side {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #dfbbd7;
+}
+
+.quote {
+  padding-top: 190px;
+  font-size: 50px;
+  line-height: 60px;
+  color: rgb(27, 27, 27);
+  flex-basis: 50%;
+}
+.quote p {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#side.img {
+  height: 20px;
+  border: border-box;
+}
+/* DISCOUNT */
+main{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+.dis-container{
+   display: flex; 
+   justify-content: space-around;
+   padding-top: 25px;
+  }
+  /* CATEGORIES */
+.cat-container h2{
+ padding-left: 580px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ background-color: #fad3f1;
+}
+.categories{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fad3f1;
+}
